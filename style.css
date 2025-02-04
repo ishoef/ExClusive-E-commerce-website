@@ -131,13 +131,6 @@ body{
     padding-top: 34px;
 }
 
-.left-text-2{
-    flex-basis: 40%;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
 .img-content{
     display: flex;
     justify-content: space-between;
@@ -145,7 +138,13 @@ body{
     background: #000;
     color: #fff;
     padding-left: 62px;
+}
 
+.left-text-2{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .logo-left{
@@ -217,5 +216,35 @@ body{
         justify-content: space-between;
         align-items: center;
         padding: 8px 0 8px 0;
+    }
+
+    /* __________Hero-Section-Responsive_________ */
+
+    .hero-content{
+        width: 90%;
+    }
+
+    .left-text{
+        display: none;
+    }
+
+    .img-content{
+        padding-left: 0px;
+        flex-direction: column-reverse;
+        padding: 40px 0;
+        align-items: start;
+    }
+
+    .left-text-2{
+        padding-left: 10%;
+    }
+
+    .iPhone-14{
+        width: 90vw;
+    }
+
+    .logo-left-text{
+        color: var(--text-color-2);
+        font-size: 18px;
     }
 }
