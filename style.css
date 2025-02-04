@@ -96,7 +96,84 @@ body{
     display: none;
 }
 
+/* __________Hero-Section________ */
 
+.hero{
+    width: 100%;
+    height: fit-content;
+}
+
+.hero-content{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text{
+    border-right: 1px solid #f2f2f2;
+    padding: 34px 34px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero-img{
+    flex-basis: 80%;
+    padding-top: 34px;
+}
+
+.left-text-2{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.img-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding-left: 62px;
+
+}
+
+.logo-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-left-text{
+    color: var(--text-color-2);
+}
+
+.up-to{
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+
+.shop-now{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.shop{
+    border-bottom: 1px solid #f2f2f2;
+    cursor: pointer;
+}
 
 
 
