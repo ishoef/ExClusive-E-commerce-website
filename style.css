@@ -217,6 +217,24 @@ body{
 }
 
 
+/* __________foot-content_________ */
+
+.foot{
+    width: 100%;
+    height: fit-content;
+    background: #000;
+    margin-top: 500px;
+
+}
+
+.foot-content{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
 
 
 
